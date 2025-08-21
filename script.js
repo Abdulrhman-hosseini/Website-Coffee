@@ -43,14 +43,6 @@ const swiper = new Swiper('.slider-wrapper', {
 });
 
 
-const buttonOrder = document.getElementById("button order-now1");
-
-buttonOrder.addEventListener("click", function(){
-  window.open('http://127.0.0.1:5500/coffee/index2.html', "_self");
- 
-})
-
-
 const InputName  =document.getElementById('inputName');
 const InputEmail  =document.getElementById('inputEmail');
 const textArea  =document.getElementById('textArea1');
